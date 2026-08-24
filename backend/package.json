@@ -1,0 +1,25 @@
+{
+  "name": "fitzone-backend",
+  "version": "1.0.0",
+  "description": "FitZone Gym & Class Booking System - Backend API (ITUE301 24CE038-B)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seed/seedData.js"
+  },
+  "keywords": ["fitzone", "gym", "booking", "express", "mongodb", "mongoose"],
+  "author": "Prince Halpara (24CE038)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
